@@ -4,9 +4,9 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "start": "nodemon ./dist/index.js",
-    "start:obs": "npm run dev",
-    "dev:obs": "npm test -- -w",
+    "start:new": "nodemon ./dist/index.js",
+    "start": "npm run dev",
+    "dev": "npm test -- -w",
     "db:migrate": "knex migrate:latest --knexfile ./src/knexfile.js",
     "init": "mkdir dist",
     "clean": "rm -rf dist",
